@@ -1,0 +1,137 @@
+body {
+    background: rgb(104, 104, 236);
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+}
+
+footer {
+   position: absolute;
+   margin-left: 1000px;
+   margin-top: -400px;
+}
+
+#tipodor{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    
+}
+
+#tipofebre{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    margin-top: 10px;
+}
+
+#tipopressao{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    margin-top: 10px;
+}
+
+/* Dor */
+
+.dipirona{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.paracetamol{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* febre */
+
+
+.ibuprofeno{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.aspirina{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* pressao */
+
+.rivaroxabana{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+.anlodipino{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+}
