@@ -1,5 +1,8 @@
 var nome = window.prompt("Por favor, digite seu nome.")
 window.document.querySelector("header").innerHTML = (`Olá ${nome}, </br> no que podemos ajudar?`)
+if(nome == null) {
+    window.document.querySelector("header").innerHTML = ("Deixa de ser preguiçoso recarregue a pagina e digite seu nome")
+}
 var fsint = window.document.getElementsByName("sintoma")
 var fmedi = window.document.getElementsByName("medicamento")
 function procurar(){
