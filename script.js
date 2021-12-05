@@ -22,9 +22,20 @@ function procurar(){
         window.document.querySelector("#tipopressao").style.display = "none"
     }
     if (fsint[0].checked || fsint[1].checked || fsint[2].checked) {
-
+        window.document.querySelector("footer").style.display = "block"
     } else {
         window.document.querySelector("footer").style.display = "none"
+        fmedi[0].checked = false
+        fmedi[1].checked = false
+        fmedi[2].checked = false
+        fmedi[3].checked = false
+        fmedi[4].checked = false
+        window.document.querySelector(".dipirona").style.display = "none"
+        window.document.querySelector(".paracetamol").style.display = "none"
+        window.document.querySelector(".ibuprofeno").style.display = "none"
+        window.document.querySelector(".aspirina").style.display = "none"
+        window.document.querySelector(".rivaroxabana").style.display = "none"
+        window.document.querySelector(".anlodipino").style.display = "none"
     }
 }
 function consultar(){
