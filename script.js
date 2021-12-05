@@ -21,6 +21,11 @@ function procurar(){
     } else {
         window.document.querySelector("#tipopressao").style.display = "none"
     }
+    if (fsint[0].checked || fsint[1].checked || fsint[2].checked) {
+
+    } else {
+        window.document.querySelector("footer").style.display = "none"
+    }
 }
 function consultar(){
     if (fmedi[0].checked){
